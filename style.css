@@ -1,0 +1,37 @@
+.box {
+  position: relative;
+  max-width: 600px;
+  height: 80px;
+  background-color: #C4D2E2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+.box__item {
+  display: none;
+}
+.box--active {
+  display: flex;
+}
+
+.btn__left {
+  position: absolute;
+  transform: translate(0%, -50%);
+  top: 50%;
+  left: 0;
+  background-color: green;
+  width: 40px;
+  height: 40px;
+  border: 0;
+}
+.btn__right {
+  position: absolute;
+  transform: translate(0%, -50%);
+  top: 50%;
+  right: 0;
+  background-color: blue;
+  width: 40px;
+  height: 40px;
+  border: 0;
+}
